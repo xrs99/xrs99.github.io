@@ -1,0 +1,75 @@
+{
+    "dexsize": [
+        {
+            "national": 898,
+            "RBY/FRLG": 151,
+            "GSC": 251,
+            "RSE": 202,
+            "DP": 151,
+            "PT": 210,
+            "HGSS": 256,
+            "BW": 156,
+            "B2W2": 301,
+            "XY": 454,
+            "ORAS": 211,
+            "SM": 301,
+            "USUM": 403,
+            "SWSH": 621
+        }
+    ],
+
+    "pokemon": [
+        {
+            "name": "Bulbusaur",
+            "type1": "grass",
+            "type2": "poison",
+            "nfe": 1,
+            "gen": 1,
+            "image": "images/turtwig-test.jpg",
+            "game": [
+                {
+                    "national": 1,
+                    "RBY/FRLG": 1,
+                    "GSC": -1,
+                    "RSE": -1,
+                    "DP": -1,
+                    "PT": -1,
+                    "HGSS": 231,
+                    "BW": -1,
+                    "B2W2": -1,
+                    "XY": 80,
+                    "ORAS": -1,
+                    "SM": -1,
+                    "USUM": -1,
+                    "SWSH": -1
+                }
+            ]
+        },
+        {
+            "name": "Ivysaur",
+            "type1": "grass",
+            "type2": "poison",
+            "nfe": 1,
+            "gen": 1,
+            "image": "images/turtwig-test.jpg",
+            "game": [
+                {
+                    "national": 2,
+                    "RBY/FRLG": 2,
+                    "GSC": -1,
+                    "RSE": -1,
+                    "DP": -1,
+                    "PT": -1,
+                    "HGSS": 232,
+                    "BW": -1,
+                    "B2W2": -1,
+                    "XY": 81,
+                    "ORAS": -1,
+                    "SM": -1,
+                    "USUM": -1,
+                    "SWSH": -1
+                }
+            ]
+        }
+    ]
+}
