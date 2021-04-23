@@ -5,5 +5,5 @@ function myfunction() {
     //x.setAttribute("height", "228");
     //x.setAttribute("alt", "Test Image");
     //document.body.appendChild(x);
-    alert("Hi!");
+    alarm("Hi!");
 }  
