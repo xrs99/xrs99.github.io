@@ -7,7 +7,4 @@
     //document.body.appendChild(x);
 //}  
 
-function myfunction() {   
-    alert("how are you");  
-}  
 
