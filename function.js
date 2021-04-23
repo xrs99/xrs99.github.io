@@ -1,6 +1,8 @@
 function myfunction() {   
-    var sourceOfPicture = "http://img.tesco.com/Groceries/pi/118/5000175411118/IDShot_90x90.jpg";
-    var img = document.getElementById('bigpic')
-    img.src = sourceOfPicture.replace('90x90', '225x225');
-    img.style.display = "block";
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "images/turtwig-test.jpg");
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+    x.setAttribute("alt", "Test Image");
+    document.body.appendChild(x);
 }  
