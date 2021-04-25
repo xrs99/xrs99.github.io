@@ -9,8 +9,9 @@
             x.setAttribute("width", "304");
             x.setAttribute("height", "228");
             x.setAttribute("alt", "Test Image");
-            document.body.appendChild(x);
-            document.body.appendChild(x);
+            for(let i = 0; i < 5; i++){
+                document.getElementById("imageDiv").appendChild(x); 
+            }
             
         }
 
@@ -20,9 +21,7 @@
             x.setAttribute("width", "304");
             x.setAttribute("height", "228");
             x.setAttribute("alt", "Test Image");
-            for(let i = 0; i < 5; i++){
-                document.getElementById("imageDiv").appendChild(x); 
-            }
+            document.body.appendChild(x); 
         }  
     </script>
 </head>  
