@@ -20,7 +20,9 @@
             x.setAttribute("width", "304");
             x.setAttribute("height", "228");
             x.setAttribute("alt", "Test Image");
-            document.body.appendChild(x); 
+            for(let i = 0; i < 5; i++){
+                document.getElementById("imageDiv").appendChild(x); 
+            }
         }  
     </script>
 </head>  
@@ -31,6 +33,7 @@
             cursor: pointer;
         }
     </style>
+    <div id="imageDiv"></div>
     <script>init()</script>
     <p>Click the following button to see the function in action</p>  
     <img src="images/turtwig-test.jpg" width="114" height="100" onclick="myfunction()"/> 
