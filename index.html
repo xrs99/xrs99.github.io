@@ -4,14 +4,28 @@
 <head>  
     <script type="text/javascript">
         function init() {
-            var x = document.createElement("IMG");
-            var y = document.createElement("IMG");
-            x.setAttribute("src", "images/turtwig-test.jpg");
-            y.setAttribute("src", "images/turtwig-test.jpg");
-            //x.setAttribute("alt", "Test Image");
-            document.getElementById("imageDiv").appendChild(x); 
-            document.getElementById("imageDiv").appendChild(y); 
+            var p1 = document.createElement("IMG");
+            var p2 = document.createElement("IMG");
+            var p3 = document.createElement("IMG");
+            var p4 = document.createElement("IMG");
+            var p5 = document.createElement("IMG");
+            var p6 = document.createElement("IMG");
+
+            p1.setAttribute("id", "placeholder");
+            p2.setAttribute("id", "placeholder");
+            p1.setAttribute("id", "placeholder");
+            p2.setAttribute("id", "placeholder");
+            p1.setAttribute("id", "placeholder");
+            p2.setAttribute("id", "placeholder");
             
+            document.getElementById("placeholder").setAttribute("src", "images/turtig-test.jpg")
+            
+            document.getElementById("imageDiv").appendChild(p1); 
+            document.getElementById("imageDiv").appendChild(p2); 
+            document.getElementById("imageDiv").appendChild(p3); 
+            document.getElementById("imageDiv").appendChild(p4); 
+            document.getElementById("imageDiv").appendChild(p5); 
+            document.getElementById("imageDiv").appendChild(p6); 
         }
 
         function myfunction() {   
