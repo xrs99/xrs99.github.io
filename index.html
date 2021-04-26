@@ -31,13 +31,6 @@
             p4.setAttribute("src", "images/turtwig-test.jpg");
             p5.setAttribute("src", "images/turtwig-test.jpg");
             p6.setAttribute("src", "images/turtwig-test.jpg");
-            
-            document.getElementById("p1").onclick = myfunction2();
-            document.getElementById("p2").onclick = myfunction2();
-            document.getElementById("p3").onclick = myfunction2();
-            document.getElementById("p4").onclick = myfunction2();
-            document.getElementById("p5").onclick = myfunction2();
-            document.getElementById("p6").onclick = myfunction2();
 
             document.getElementById("imageDiv").appendChild(p1); 
             document.getElementById("imageDiv").appendChild(p2); 
@@ -58,7 +51,7 @@
 
         function myfunction1() {   
             document.getElementById("p1").src = "images/chimchar-test.jpg"; 
-            //document.getElementById("p1").onclick = myfunction2();
+            document.getElementById("p1").onclick = myfunction2();
         }  
 
         function myfunction2() {   
